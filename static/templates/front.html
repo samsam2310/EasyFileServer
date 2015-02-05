@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>INFOR 27th</title>
+  </head>
+  <body>
+    <ol>
+      {% for i in filelist %}
+        <li>
+          <a href="/file/{{i}}">{{i}}</a>
+        </li>
+      {% end %}
+    </ol>
+  </body>
+</html>
