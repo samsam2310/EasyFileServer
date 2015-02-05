@@ -16,9 +16,8 @@ class MainHandler(tornado.web.RequestHandler):
 
 
 class FileHandler(tornado.web.StaticFileHandler):
-    pass
-    # def get_content_type(self):
-    #     return 'application/octet-stream'
+    def get_content_type(self):
+        return 'application/octet-stream'
 
 
 path = os.path.dirname(__file__)
@@ -26,10 +25,7 @@ path = os.path.dirname(__file__)
 settings = {
     'static_path': os.path.join(path, 'static'),
     'template_path'  : os.path.join(path, 'static/templates'),
-    'cookie_secret': '__TODO:_GENERATE_YOUR_OWN_RANDOM_VALUE_HERE__',
-    'login_url': '/login',
-    'xsrf_cookies': True,
-    'debug':True,
+    # 'debug':True,
 }
 
 
@@ -40,8 +36,13 @@ app = tornado.web.Application([
 
 
 def main():
-    app.listen(80)
-    IOLoop.current().start()
+    print 'Press Ctrl + C to stop the server.'
+    try:
+        app.listen(80)
+        IOLoop.current().start()
+    except KeyboardInterrupt:
+        IOLoop.current().stop()
+        print 'Server shutdown.'
 
 if __name__ == '__main__':
     main()
