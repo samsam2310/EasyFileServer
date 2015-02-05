@@ -34,7 +34,6 @@ app = tornado.web.Application([
     (r'/', MainHandler),
 ],**settings)
 
-
 def main():
     print 'Press Ctrl + C to stop the server.'
     try:
