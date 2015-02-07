@@ -1,13 +1,14 @@
-�ϥΨB�J�G
-1.��n�U�����ɮש�ifile��Ƨ��̡C
-2.�������80port���}�A�άO��������������C
-3.�Ұ�main.py�C
-4.�bcmd�̥�ipconfig �d�ۤv��IP(IPv4 ��}�A�i�๳�O192.168.XXX.XXX)�C
-5.�P�@�Ӱϰ�����̪��q���A�u�n���J(4.)�d�쪺IP��m�N�i�H�U���ɮפF�C
+使用步驟：
+1.把要下載的檔案放進file資料夾裡。
+2.防火牆把80port打開，或是直接關閉防火牆。
+3.啟動main.py。
+4.在cmd裡用ipconfig 查自己的IP(IPv4 位址，可能像是192.168.XXX.XXX)。
+5.同一個區域網路裡的電腦，只要打入(4.)查到的IP位置就可以下載檔案了。
 
-�N�i�H���q�и̪��H�U���ɮ��o
+就可以讓電教裡的人下載檔案囉
 
-�`�N
-1.����Ƨ������|���i�H������άO��L�S�����r���A�̦n�O�^��A��b�ୱ�άO C:/�BD:/�@�w�S���D�C
-2.�q���n��python 2.7��B�q���n��python 2.7��B�q���n��python 2.7��A�]���ܭ��n�ҥH���T���C
-3.�����������i��|���Y�Ǧw���ʰ��D�A�p�G�����O�~��(IP���O����IP)���ܡA�̦n���n����������C
+注意
+1.此資料夾的路徑不可以有中文或是其他特殊的字元，最好是英文，放在桌面或是 C:/、D:/一定沒問題。
+2.電腦要裝python呦、電腦要裝python呦、電腦要裝python呦，因為很重要所以講三次。(2,3都可以)
+3.防火牆關閉可能會有某些安全性問題，如果網路是外網(IP不是內網IP)的話，最好不要關閉防火牆。
+4.file資料夾裡只能放檔案，資料夾是不行的喔，有資料夾要先壓縮成一個檔案。
