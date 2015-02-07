@@ -10,7 +10,7 @@ from tornado.ioloop import IOLoop
 from glob import glob
 
 
-path = os.path.dirname(sys.path[0].decode('big5'))
+path = os.getcwd().decode('big5')
 
 
 class MainHandler(tornado.web.RequestHandler):
@@ -37,6 +37,9 @@ def main():
         app.listen(8888)
         os.chdir(path)
         os.system('start_nginx')
+        def callback():
+            print(5);
+        IOLoop.current().add_callback(callback)
         IOLoop.current().start()
     except KeyboardInterrupt:
         os.chdir(path)

@@ -242,3 +242,4 @@
 127.0.0.1 - - [08/Feb/2015:00:06:57 +0800] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36"
 127.0.0.1 - - [08/Feb/2015:00:07:02 +0800] "GET / HTTP/1.1" 502 574 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36"
 127.0.0.1 - - [08/Feb/2015:00:08:05 +0800] "GET / HTTP/1.1" 200 296 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36"
+127.0.0.1 - - [08/Feb/2015:00:40:12 +0800] "GET / HTTP/1.1" 200 180 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36"
