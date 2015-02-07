@@ -35,13 +35,14 @@ app = tornado.web.Application([
 ],**settings)
 
 def main():
-    print('Press Ctrl + C to stop the server.')
+    print('Press Ctrl + C to stop the server.(do not work with python3 on windows)')
     try:
         app.listen(80)
         IOLoop.current().start()
     except KeyboardInterrupt:
         IOLoop.current().stop()
         print('Server shutdown.')
+    print("end")
 
 if __name__ == '__main__':
     main()
