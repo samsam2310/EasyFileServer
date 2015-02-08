@@ -1,0 +1,38 @@
+worker_processes  2;
+
+events {
+    worker_connections  1024;
+}
+
+http {
+    upstream tornado {
+        server 127.0.0.1:8888;
+    }
+
+    default_type  application/octet-stream;
+
+    sendfile        on;
+
+    keepalive_timeout  65;
+
+    server {
+        listen       80;
+
+        location /file/ {
+            alias   "%s/";
+            charset        utf8;
+            add_header Content-Type application/octet-stream;
+            if ($query_string) {
+                expires max;
+            }
+        }
+        location / {
+            proxy_pass_header Server;
+            proxy_set_header Host $http_host;
+            proxy_redirect off;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Scheme $scheme;
+            proxy_pass http://tornado;
+        }
+    }
+}

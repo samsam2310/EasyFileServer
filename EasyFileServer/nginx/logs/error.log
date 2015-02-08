@@ -170,10 +170,150 @@
 2015/02/07 16:56:18 [warn] 4744#5208: duplicate extension "txt", content type: "text/plain", previous content type: "text/html" in D:\Desktop\EasyFileServer-master\EasyFileServer-master\nginx-1.7.9/conf/mime.types:13
 2015/02/07 16:56:18 [warn] 1920#1604: duplicate extension "txt", content type: "text/plain", previous content type: "text/html" in D:\Desktop\EasyFileServer-master\EasyFileServer-master\nginx-1.7.9/conf/mime.types:13
 2015/02/07 16:56:51 [notice] 5320#4324: signal process started
-2015/02/08 00:00:54 [error] 21072#18908: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8888/", host: "localhost"
-2015/02/08 00:01:16 [error] 21072#18908: *8 CreateFile() "C:\Users\user\github\EasyFileServer\dist\nginx/../file/æ–°æ–‡å­—æ–‡ä»¶.txt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /file/%E6%96%B0%E6%96%87%E5%AD%97%E6%96%87%E4%BB%B6.txt HTTP/1.1", host: "localhost"
-2015/02/08 00:03:10 [error] 21072#18908: *12 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8888/", host: "localhost"
-2015/02/08 00:05:17 [error] 23012#17528: *5 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8888/", host: "localhost"
-2015/02/08 00:13:13 [notice] 11348#26036: signal process started
-2015/02/08 00:13:47 [notice] 13528#23828: signal process started
-2015/02/08 00:13:57 [notice] 26632#24256: signal process started
+2015/02/07 22:40:13 [emerg] 17576#20500: CreateFile() "C:\Users\user\github\EasyFileServer¤¤¤å\nginx/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2015/02/07 22:41:14 [emerg] 18668#14796: CreateFile() "C:\Users\user\github\EasyFileServer¤¤¤å\nginx/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2015/02/07 22:42:11 [emerg] 24240#1540: CreateFile() "C:\Users\user\github\EasyFileServer¤¤¤å\nginx/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2015/02/07 23:28:37 [error] 19612#21288: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8888/", host: "localhost"
+2015/02/07 23:28:38 [notice] 26940#18624: signal process started
+2015/02/07 23:33:21 [notice] 22724#26724: signal process started
+2015/02/07 23:34:39 [notice] 4348#12556: signal process started
+2015/02/07 23:51:45 [error] 9640#11152: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8888/", host: "localhost"
+2015/02/07 23:53:38 [error] 16056#6344: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8888/", host: "localhost"
+2015/02/07 23:54:49 [notice] 23888#14584: signal process started
+2015/02/07 23:56:21 [error] 23712#10104: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8888/", host: "localhost"
+2015/02/07 23:57:24 [notice] 4232#20648: signal process started
+2015/02/07 23:58:41 [notice] 19708#19192: signal process started
+2015/02/08 00:06:01 [error] 14072#27836: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8888/", host: "localhost"
+2015/02/08 00:07:02 [error] 21516#19656: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8888/", host: "localhost"
+2015/02/08 00:08:09 [notice] 19516#24180: signal process started
+2015/02/08 00:40:17 [notice] 20632#19400: signal process started
+2015/02/08 16:51:18 [notice] 26288#26072: signal process started
+2015/02/08 17:04:42 [notice] 16664#23004: signal process started
+2015/02/08 17:05:11 [notice] 27940#13728: signal process started
+2015/02/08 17:08:31 [notice] 2912#28160: signal process started
+2015/02/08 17:20:59 [notice] 24124#21348: signal process started
+2015/02/08 17:50:56 [error] 4884#2520: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8888/", host: "localhost"
+2015/02/08 17:52:04 [error] 4884#2520: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8888/", host: "localhost"
+2015/02/08 17:56:08 [error] 10852#15828: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8888/", host: "localhost"
+2015/02/08 17:56:55 [notice] 19972#18468: signal process started
+2015/02/08 17:57:35 [notice] 19964#21672: signal process started
+2015/02/08 18:01:43 [notice] 3880#19656: signal process started
+2015/02/08 18:43:45 [notice] 19764#20600: signal process started
+2015/02/08 18:48:50 [notice] 15876#7684: signal process started
+2015/02/08 18:49:44 [notice] 26148#22620: signal process started
+2015/02/08 18:52:09 [notice] 12744#28656: signal process started
+2015/02/08 18:57:43 [notice] 21956#19928: signal process started
+2015/02/08 19:00:19 [error] 11480#10376: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8888/", host: "localhost"
+2015/02/08 19:01:41 [notice] 13360#19488: signal process started
+2015/02/08 19:02:23 [notice] 10040#16408: signal process started
+2015/02/08 19:04:54 [notice] 20720#19236: signal process started
+2015/02/08 19:05:56 [notice] 19144#11380: signal process started
+2015/02/08 19:06:45 [notice] 17460#17044: signal process started
+2015/02/08 19:11:10 [notice] 2124#15748: signal process started
+2015/02/08 19:12:40 [notice] 12276#21676: signal process started
+2015/02/08 19:13:51 [notice] 23892#27352: signal process started
+2015/02/08 19:17:43 [notice] 15348#2840: signal process started
+2015/02/08 19:17:58 [notice] 26148#6572: signal process started
+2015/02/08 19:18:21 [notice] 21460#18968: signal process started
+2015/02/08 19:20:13 [notice] 27860#4680: signal process started
+2015/02/08 19:23:00 [notice] 23352#2872: signal process started
+2015/02/08 19:25:53 [notice] 18268#27356: signal process started
+2015/02/08 19:34:23 [notice] 28156#27740: signal process started
+2015/02/08 19:34:23 [error] 28156#27740: OpenEvent("Global\ngx_stop_13672") failed (2: The system cannot find the file specified)
+2015/02/08 19:36:09 [notice] 28540#2944: signal process started
+2015/02/08 19:37:06 [notice] 20476#6896: signal process started
+2015/02/08 19:42:20 [notice] 20156#27288: signal process started
+2015/02/08 20:16:14 [notice] 25496#28084: signal process started
+2015/02/08 20:24:25 [notice] 22228#20544: signal process started
+2015/02/08 21:11:15 [notice] 25728#22824: signal process started
+2015/02/08 21:15:15 [notice] 18624#8912: signal process started
+2015/02/08 21:21:08 [notice] 26568#17248: signal process started
+2015/02/08 21:21:34 [notice] 12108#28244: signal process started
+2015/02/08 21:24:30 [error] 10176#21500: *1 CreateFile() "C:/Users/user/github/official-siteimage.pyc" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /file/image.pyc HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/08 21:25:08 [notice] 27656#28084: signal process started
+2015/02/08 21:25:50 [notice] 14260#15936: signal process started
+2015/02/08 21:26:16 [notice] 22716#12848: signal process started
+2015/02/08 21:27:12 [emerg] 27364#25736: no "events" section in configuration
+2015/02/08 21:30:19 [emerg] 24964#12352: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:22
+2015/02/08 21:30:33 [emerg] 21400#11796: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:22
+2015/02/08 21:38:59 [emerg] 13664#19080: no "events" section in configuration
+2015/02/08 21:43:19 [emerg] 19732#24192: no "events" section in configuration
+2015/02/08 21:45:28 [emerg] 26476#22248: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/08 21:45:51 [emerg] 16192#25596: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/08 21:46:56 [emerg] 26768#25732: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/08 21:47:24 [emerg] 26808#21388: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/08 21:47:26 [emerg] 18976#9880: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/08 21:47:31 [emerg] 27236#21084: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/08 21:47:34 [emerg] 20788#20216: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/08 21:48:32 [emerg] 18980#19640: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/08 21:48:47 [emerg] 16756#15292: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/08 21:50:16 [emerg] 28464#24088: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/08 21:51:23 [emerg] 23804#19044: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/08 21:53:09 [emerg] 23384#28416: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/08 21:53:22 [emerg] 18984#9900: unknown directive "ï»¿" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:2
+2015/02/08 21:53:25 [emerg] 24584#20740: unknown directive "ï»¿" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:2
+2015/02/08 21:54:37 [emerg] 19336#1836: unknown directive "ï»¿" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:2
+2015/02/08 21:54:50 [emerg] 27148#21544: unknown directive "ï»¿" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:2
+2015/02/08 21:55:32 [emerg] 2276#23332: unknown directive "ï»¿" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:2
+2015/02/08 21:58:38 [emerg] 17324#17236: unknown directive "ÿþ" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:2
+2015/02/08 21:59:01 [emerg] 16464#13608: unknown directive "ÿþ" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:2
+2015/02/08 21:59:41 [notice] 22600#16552: signal process started
+2015/02/08 22:02:25 [notice] 9576#14208: signal process started
+2015/02/08 22:02:45 [notice] 21880#21064: signal process started
+2015/02/08 22:02:54 [emerg] 14428#14760: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:04:25 [emerg] 20688#19944: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:04:41 [emerg] 16312#20892: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:05:06 [emerg] 21032#22700: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:05:28 [emerg] 27920#13272: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:09:57 [emerg] 15568#10952: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:14:24 [notice] 15676#25616: signal process started
+2015/02/08 22:14:32 [emerg] 22284#20008: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:14:50 [emerg] 6648#20180: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:15:40 [emerg] 24216#16160: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:15:44 [emerg] 19648#23136: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:17:03 [emerg] 17808#28436: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:17:47 [emerg] 26204#13292: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:20:27 [emerg] 18844#19840: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:20:41 [emerg] 13212#4092: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:21:25 [emerg] 3824#22784: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:21:35 [emerg] 18448#1816: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:22:45 [emerg] 26956#13864: invalid number of arguments in "alias" directive in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:24
+2015/02/08 22:23:30 [notice] 13240#4976: signal process started
+2015/02/08 22:25:48 [crit] 26804#27952: *1 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/08 22:26:25 [notice] 1176#10416: signal process started
+2015/02/08 22:26:29 [crit] 10464#27976: *1 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/08 22:26:35 [crit] 10464#27976: *2 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/08 22:27:08 [notice] 12640#20484: signal process started
+2015/02/08 22:27:11 [crit] 8216#21156: *1 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/08 22:27:12 [crit] 8216#21156: *2 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/08 22:27:13 [crit] 8216#21156: *3 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/08 22:27:13 [crit] 8216#21156: *4 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/08 22:27:13 [crit] 8216#21156: *5 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/08 22:27:13 [crit] 8216#21156: *6 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/08 22:27:14 [crit] 8216#21156: *7 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/09 03:46:48 [notice] 12556#24664: signal process started
+2015/02/09 03:48:00 [crit] 24016#15856: *1 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/09 03:48:23 [notice] 21812#16472: signal process started
+2015/02/09 03:48:32 [crit] 26656#25124: *1 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/09 03:52:07 [crit] 23496#18960: *1 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/09 04:02:03 [notice] 5080#20600: signal process started
+2015/02/09 04:12:29 [crit] 19576#20340: *1 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/09 04:12:29 [crit] 19576#20340: *3 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2015/02/09 04:12:57 [notice] 12432#28488: signal process started
+2015/02/09 04:13:30 [emerg] 15472#20352: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/09 04:13:32 [emerg] 5140#16676: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/09 04:13:57 [emerg] 21052#20856: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/09 04:14:28 [emerg] 8772#28440: unknown directive "ï»¿worker_processes" in C:\Users\user\github\EasyFileServer\nginx/conf/nginx.conf:1
+2015/02/09 04:14:35 [crit] 18048#20264: *1 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost"
+2015/02/09 04:14:35 [crit] 18048#20264: *2 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost"
+2015/02/09 04:14:36 [crit] 18048#20264: *3 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost"
+2015/02/09 04:17:21 [crit] 18048#20264: *5 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost"
+2015/02/09 04:17:22 [crit] 18048#20264: *6 CreateFile() "C:/Users/user/Google ¶³ºÝµwºÐ/002.mp3" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page), client: 127.0.0.1, server: , request: "GET /file/002.mp3 HTTP/1.1", host: "localhost"
+2015/02/09 04:18:08 [notice] 16912#18664: signal process started
+2015/02/09 04:24:36 [notice] 26712#8920: signal process started
+2015/02/09 04:29:33 [notice] 4568#22724: signal process started
+2015/02/09 04:32:44 [notice] 8832#24828: signal process started
+2015/02/09 04:54:35 [notice] 668#22836: signal process started
+2015/02/09 04:55:56 [error] 20504#23688: *1 CreateFile() "C:/Users/user/Downloads/example.txt" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /file/example.txt HTTP/1.1", host: "localhost"
+2015/02/09 04:56:24 [notice] 10552#20712: signal process started
+2015/02/09 05:24:26 [notice] 28104#25992: signal process started
