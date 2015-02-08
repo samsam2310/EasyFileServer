@@ -128,15 +128,6 @@ class ServerGUI(Frame):
             tkMessageBox.showinfo('Read Me', message)
 
     def about(self):
-        message = \
-"""
-Hi!
-因為累了所以我要用中文寫!!!
-會寫這個都是因為一時興起，沒想到竟然寫出了這麼複雜的東西，也學到很多~~~。
-感謝支援(TMD)Windows的Tornado和nginx，雖然因為big5和utf-8出了很多問題。
-
-github: https://github.com/samsam2310/EasyFileServer
-
-by INFOR 27th 果茶
-"""
-        tkMessageBox.showinfo('About', message)
+        with open('about.txt','r') as f:
+            message = f.read()
+            tkMessageBox.showinfo('About', message)
